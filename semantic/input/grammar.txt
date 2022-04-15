@@ -1,0 +1,10 @@
+E
+E -> E+T    { E := E + T }
+E -> E-T    { E := E - T }
+E -> T      { E := T }
+T -> T*F    { T := T * F }
+T -> T/F    { T := T / F }
+T -> F      { T := F }
+F -> (E)    { F := E }
+F -> 1      { F := 1 }
+F -> 2      { F := 2 }

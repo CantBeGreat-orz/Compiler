@@ -1,0 +1,21 @@
+#include iostream
+#include cstring
+
+int myfunc(int a, int b){
+	return a * b;
+}
+
+int main(){
+	string str = "aaa\\5555\"cz23x";
+	char ch = '\\', ch2 = '\'';
+	real a_b_g_0 = -1e-9+1.0i;
+	real _ab = 17.0 + a_b_g_0;
+	real ab = _ab;
+	int i = 0;
+	while(i < 10 ){
+		++i;
+	}
+	int e = i * _ab;
+	e += i;
+	return 0;
+}
